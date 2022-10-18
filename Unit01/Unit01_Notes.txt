@@ -1,0 +1,18 @@
+Unit 1 Commands
+df - Disk Free: Displays computer disks and the amount of storage each has, both used and available
+cd - Navigate your command line with the cd command. Go up the file path by typing in cd ... , and down the file path by typing cd *file name*.
+ls - Lists the files in directory. Can be expanded by typing in -l or -a. Can be combined to type ls -la. Use ls --help to read the documentation.
+vi - Opens a text editor. When creating a new file, type vi *new file name*.
+   - i - Type "i" to type in the file. Press the esc to stop typing.
+   - : - Typing a colon (:) will open the prompt at the bottom of the window, where you can enter commands for the vi editor. 
+   - :x - Typing :x will save and quit the vi editor.
+cp - copies specified file to a different path. The arguments are: cp *file name* *copied file path*. Can also specify new file name and old file location. i.e. 
+     cp /c/documents hello.txt /c/downloads hello_backup.txt
+mkdir - Make Directory: Creates a new directory in current or specified directory. i.e. mkdir /c/users/erick/ColRep
+mv - Moves specified file to a disired path. Can also rename files. i.e. mv /c/documents/hello.txt /c/users/erick/colrep/story.txt
+rm - Deletes file by name. DELETES FILES PERMENENTLY
+* - A wildcard can be used to find multiple files with certain names to match a pattern
+  - *.txt will match all .txt files
+  - hello* will match all files that start wil hello
+  - *when* will match all files that contain "when"
+
